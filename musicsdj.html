@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musics_DJ</title>
+    <link href="https://cdn.discordapp.com/avatars/772133876813922314/dd5c83e28d3e2965f60fa3ecb9b98516.webp" rel="icon">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main-content">
+        <nav class="nav-bar">
+            <div class="nav-content">
+                <a href="#main" class="nav-icon"><img src="https://cdn.discordapp.com/avatars/772133876813922314/dd5c83e28d3e2965f60fa3ecb9b98516.webp" style="width:50px;" alt="Musics_DJ">Musics_DJ</a>
+                <div class="nav-links">
+                    <a href="#main" class="nav-link">Home</a>
+                    <a href="#commands" class="nav-link">Commands</a>
+                    <a target="_blank" href="https://discord.com/oauth2/authorize?client_id=772133876813922314&scope=bot&permissions=37053728" class="nav-link invite-btn">Invite</a>
+                    <a target="_blank" class="nav-link" href="https://discord.gg/SgCABjZ3cy">Support server</a>
+                    <a target="_blank" href="https://top.gg/bot/772133876813922314" class="nav-link">Vote me</a>
+                </div>
+            </div>
+        </nav>
+
+        <main id="main" class="main">
+            <h1>Musics_DJ</h1>
+            <h2>Custom Discord bot for your community needs <span class="typed"></span></h2>
+            <p class="typed-items" data-typed-person="">Music!, Playlists!, Filters and more!</p>
+            <div class="btn-container">
+                <a target="_blank" class="main-btn" href="https://discord.com/oauth2/authorize?client_id=772133876813922314&scope=bot&permissions=37053728">Add To discord</a>
+                <a class="main-btn" href="#commands">See All Commands</a>
+            </div>
+        </main>
+
+
+        <!-- Bot Commands Table -->
+
+        <section id="commands" class="commands">
+            <table class="commands-table">
+                <h2>Bot Commands (13)</h2>
+                <br /><br />
+                <thead>
+                    <tr>
+                        <th>Sl.no</th>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Usage</th>
+                        <th>User Permissions</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Donate</td>
+                        <td>Sends a link to Musics_DJ patreon page</td>
+                        <td>+donate</td>
+                        <td>None</td>
+                        <td>+donate</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Help</td>
+                        <td>Sends you a detailed list of Music_DJ's commands</td>
+                        <td>+help [command name]</td>
+                        <td>None</td>
+                        <td>+help help</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Invite</td>
+                        <td>Sends the invite link for the bot</td>
+                        <td>+invite</td>
+                        <td>None</td>
+                        <td>+invite</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br /><br />
+
+            <!-- Music Commands Table -->
+
+            <table class="commands-table">
+                <h2>Music Commands (25)</h2>
+                <br /><br />
+                <thead>
+                    <tr>
+                        <th>Sl.no</th>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Usage</th>
+                        <th>User Permissions</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Charts</td>
+                        <td>Shows the most played songs</td>
+                        <td>+charts</td>
+                        <td>None</td>
+                        <td>+charts</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Clear</td>
+                        <td>Clears the queue</td>
+                        <td>+clear</td>
+                        <td>None</td>
+                        <td>+clear</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Forward</td>
+                        <td>Fast forwards a song (default 10 seconds)</td>
+                        <td>+forward &LeftAngleBracket;Seconds&RightAngleBracket;</td>
+                        <td>None</td>
+                        <td>+forward 20s</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Join</td>
+                        <td>Joins the voice channel you are in channel you joined</td>
+                        <td>+join</td>
+                        <td>None</td>
+                        <td>+join</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Leave</td>
+                        <td>The bot leaves the voice channel it is currently in</td>
+                        <td>+leave</td>
+                        <td>None</td>
+                        <td>+leave</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Loop</td>
+                        <td>Repeats the current queue/song</td>
+                        <td>+loop &LeftAngleBracket;queue/song&RightAngleBracket;</td>
+                        <td>None</td>
+                        <td>+loop Hello</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Lyrics</td>
+                        <td>Displays lyrics of a song</td>
+                        <td>+lyrics &LeftAngleBracket;search query&RightAngleBracket;</td>
+                        <td>None</td>
+                        <td>+lyrics Blueeyes</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Move</td>
+                        <td>Moves a song to another location in the queue</td>
+                        <td>+move &LeftAngleBracket;old position&RightAngleBracket; &LeftAngleBracket;new position&RightAngleBracket;</td>
+                        <td>None</td>
+                        <td>+move 1 2</td>
+                    </tr>
+                    <tr>
+                        <td>9.</td>
+                        <td>Nowplaying</td>
+                        <td>Displays the song that is currently playing</td>
+                        <td>+nowplaying</td>
+                        <td>None</td>
+                        <td>+nowplaying</td>
+                    </tr>
+                    <tr>
+                        <td>10.</td>
+                        <td>Pause</td>
+                        <td>Pauses the song</td>
+                        <td>+pause</td>
+                        <td>None</td>
+                        <td>+pause</td>
+                    </tr>
+                    <tr>
+                        <td>11.</td>
+                        <td>Play</td>
+                        <td>Plays a Song</td>
+                        <td>+play &LeftAngleBracket;search query&RightAngleBracket;</td>
+                        <td>None</td>
+                        <td>+play Blueeyes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+    </div>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/typed/typed.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
